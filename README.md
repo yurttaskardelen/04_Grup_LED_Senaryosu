@@ -12,7 +12,7 @@ Animasyon, iki ana grup halinde çalışır ve sürekli tekrar eder:
 
 **Grup 1 (Kırmızı & Mavi):**
 1.  **Kırmızı LED (PA1)** 5 saniye boyunca tek başına yanar.
-2.  Ardından **Mavi LED (PA5)** de yanar. Kırmızı LED sönmez, ikisi birlikte 2 saniye daha yanarlar.
+2.  Ardından **Mavi LED (PA4)** de yanar. Kırmızı LED sönmez, ikisi birlikte 2 saniye daha yanarlar.
 3.  2 saniyenin sonunda her iki LED (Kırmızı ve Mavi) aynı anda söner.
 
 **Grup 2 (Yeşil & Sarı):**
@@ -35,7 +35,7 @@ Animasyon, iki ana grup halinde çalışır ve sürekli tekrar eder:
 * **1x** Mavi LED
 * **1x** Yeşil LED
 * **1x** Sarı LED
-* **4x** 220 Ohm Direnç (LED'ler için ön direnç)
+* **4x** 220 ya da 330 Ohm Direnç (LED'ler için ön direnç)
 * Breadboard ve Jumper kablolar
 
 ---
@@ -49,7 +49,7 @@ LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise d
 | Kırmızı LED | 220 Ohm | `PA1` |
 | Yeşil LED | 220 Ohm | `PA2` |
 | Sarı LED | 220 Ohm | `PA3` |
-| Mavi LED | 220 Ohm | `PA5` |
+| Mavi LED | 220 Ohm | `PA4` |
 | (Tümü) | - | `GND` |
 
 <img width="473" height="404" alt="Pin_Baglantilari" src="https://github.com/user-attachments/assets/39f386d1-f1e7-4f13-b418-1070236beaa6" />
