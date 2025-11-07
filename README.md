@@ -59,3 +59,12 @@ LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise d
 
 <img width="1065" height="460" alt="04" src="https://github.com/user-attachments/assets/4aede860-2109-4b4e-b063-ce0742c0e79d" />
 
+---
+
+### 🚀 Nasıl Kullanılır?
+
+1.  Bu depoyu klonlayın (`git clone ...`).
+2.  STM32CubeIDE yazılımını açın.
+3.  `File > Open Projects from File System...` seçeneği ile proje klasörünü seçin.
+4.  Proje içindeki `.ioc` dosyasını açarak pin yapılandırmasını inceleyebilirsiniz.
+5.  Derleyin (Build) ve ST-Link V2 üzerinden kartınıza yükleyin (Run).
